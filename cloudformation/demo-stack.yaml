@@ -1,0 +1,8 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: Enable S3 Public Access Block
+Resources:
+  S3PublicAccessBlock:
+    Type: Custom::S3PublicAccessBlock
+    Properties:
+      AccountId: !Ref AWS::AccountId
+      ServiceToken: !Sub 'arn:aws:lambda:${AWS::Region}:${AWS::AccountId}:function:cfn-s3-public-access-block-provider'
