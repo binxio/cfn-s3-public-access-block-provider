@@ -1,3 +1,4 @@
+deprecated Nov 2024 -> [AWS::S3::Bucket public access block configuration](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-s3-bucket-publicaccessblockconfiguration.html)
 # cfn-s3-public-access-block
 
 Custom CloudFormation resource to enable S3 Public Access Blocks.
